@@ -1,10 +1,12 @@
 # Counter App 🚀
 
-![Logo Contatore](assets/img/contatore.png)
+<p align="center">
+  <img src="assets/img/contatore.png" alt="Screen Applicazione" width="450">
+</p>
 
 Sviluppo di un'applicazione web interattiva con **Vanilla JavaScript** e **CSS3**, progettata per dimostrare la manipolazione dinamica del DOM senza l'utilizzo di framework o librerie esterni.
 
-🔗 **Prova subito l'applicazione online:** [https://aangelicaricci.github.io/javascript-project/](https://aangelicaricci.github.io/javascript-project/)
+🔗 **Prova subito l'applicazione online:** <a href="https://aangelicaricci.github.io/javascript-project/" target="_blank">https://aangelicaricci.github.io/javascript-project/</a>
 
 ---
 
@@ -12,9 +14,9 @@ Sviluppo di un'applicazione web interattiva con **Vanilla JavaScript** e **CSS3*
 - [Panoramica del Progetto](#panoramica-del-progetto)
 - [Struttura del Progetto](#struttura-del-progetto)
 - [Architettura e Codice Sorgente](#architettura-e-codice-sorgente)
-  - [HTML (`index.html`)](#html-indexhtml)
-  - [Stili (`css/style.css`)](#stili-cssstylecss)
-  - [Logica JavaScript (`js/script.js`)](#logica-javascript-jsscriptjs)
+  - [HTML (index.html)](#html-indexhtml)
+  - [Stili (cssstylecss)](#stili-cssstylecss)
+  - [Logica JavaScript (jsscriptjs)](#logica-javascript-jsscriptjs)
 - [Come Eseguire l'Applicazione](#come-eseguire-lapplicazione)
 - [Requisiti Tecnici](#requisiti-tecnici)
 
@@ -34,13 +36,13 @@ La struttura delle directory segue le best practices dello sviluppo web frontend
 javascript-project/
 │
 ├── README.md         
-├── .gitignore          # Esclusione dei file di sistema generati automaticamente da macOS (.DS_Store)
+├── .gitignore          # Esclusione dei file di sistema (.DS_Store)
 ├── index.html          # Scheletro HTML principale
-├── assets/
-    └── css/
-        └── style.css       # Foglio di stile dell'interfaccia
-    └── js/
-        └── script.js       # Logica e manipolazione dinamica del DOM
+└── assets/
+    ├── css/
+    │   └── style.css       # Foglio di stile dell'interfaccia
+    ├── js/
+    │   └── script.js       # Logica e manipolazione dinamica del DOM
     └── img/
         └── contatore.png   # Screen dell'applicazione
 ```
@@ -60,11 +62,11 @@ Il file HTML non contiene elementi strutturali visibili, limitandosi ad importar
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Counter App</title>
     <!-- Percorso per lo script CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <!-- Percorso per lo script Java Script -->
-    <script src="js/script.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
 ```
@@ -177,7 +179,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Definizione della funzione per aggiornare il valore
     const updateNumberDisplay = () => {
-        numberDisplayed.innerText = count;
+        numberDisplayed.innerText = count;;
     };
 
     // 6. Aggiunta degli EventListener per gestire i click
