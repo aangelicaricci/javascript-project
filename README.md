@@ -6,7 +6,7 @@
 
 Sviluppo di un'applicazione web interattiva con **Vanilla JavaScript** e **CSS3**, progettata per dimostrare la manipolazione dinamica del DOM senza l'utilizzo di framework o librerie esterni.
 
-🔗 <strong>Prova subito l'applicazione online:</strong> <a href="https://aangelicaricci.github.io/javascript-project/" target="_blank">https://aangelicaricci.github.io/javascript-project/</a>
+🔗 <strong>Prova subito l'applicazione online:</strong> <a href="https://aangelicaricci.github.io/javascript-project/">https://aangelicaricci.github.io/javascript-project/</a>
 
 ---
 
