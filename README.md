@@ -10,18 +10,6 @@ Sviluppo di un'applicazione web interattiva con **Vanilla JavaScript** e **CSS3*
 
 ---
 
-## 📋 Indice
-- [Panoramica del Progetto](#panoramica-del-progetto)
-- [Struttura del Progetto](#struttura-del-progetto)
-- [Architettura e Codice Sorgente](#architettura-e-codice-sorgente)
-  - [HTML](#1-html-indexhtml)
-  - [Stili CSS](#2-stili-cssstylecss)
-  - [Logica JavaScript](#3-logica-javascript-jsscriptjs)
-- [Come Eseguire l'Applicazione](#come-eseguire-lapplicazione)
-- [Requisiti Tecnici](#requisiti-tecnici)
-
----
-
 ## 🔍 Panoramica del Progetto
 
 Il progetto implementa un contatore dinamico che consente all'utente di incrementare o decrementare un valore numerico tramite i pulsanti dedicati. L'interfaccia viene **generata a runtime** tramite JavaScript puro.
