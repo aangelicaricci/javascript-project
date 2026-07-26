@@ -42,7 +42,7 @@ javascript-project/
 ## 🛠️ Architettura e Codice Sorgente
 
 ### 1. HTML (`index.html`)
-Il file HTML non contiene elementi strutturali visibili, limitandosi ad importare il foglio di stile e lo script di inizializzazione.
+Il file HTML non contiene elementi strutturali visibili. Si limita ad importare il foglio di stile e lo script di inizializzazione.
 
 ```html
 <!DOCTYPE html>
